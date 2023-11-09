@@ -1,15 +1,7 @@
-# IA
+# IA-Material
 
-To install dependencies:
+This repository holds code that I used to collect data for a paper about the safety of encryption algorithms.
 
-```bash
-bun install
-```
+Simple substitution cracking is written in Typescript targetting Bun 1.0.x
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.0.10. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+AES cracking is written in Zig targetting compiler version 0.11
